@@ -1,3 +1,12 @@
+
+
+
+html{
+    scroll-padding-top: 4rem;
+}
+
+
+
 h1 { color:rgb(255, 255, 255); margin-top: 0;}
 h2 { color:rgb(238, 238, 244); margin-bottom: 0;
 text-align: center;
@@ -92,6 +101,7 @@ width: 30px;
     display: inline-block;
     margin-right:10% ;
    justify-content:center;
+
 }
 
 #acerca {
@@ -110,13 +120,13 @@ a {
 
 
 section {
-    margin-left: 10%;
+    margin-left: -10%;
     background-color: rgba(21, 127, 100, 0.327);
-    padding: 20px;
+    padding: 40px;
     border: 1px solid #0a676b;
     border-radius: 10px;
-    margin-bottom: 20px;
-    width: 80%;
+    margin-bottom: 15px;
+    width: 90%;
 }
 
 section h2 {
