@@ -1,19 +1,34 @@
-h1 { color:rgb(6, 16, 6); margin-top: 0;}
-h2 { color:blue; margin-bottom: 10px;}
+h1 { color:rgb(255, 255, 255); margin-top: 0;}
+h2 { color:rgb(238, 238, 244); margin-bottom: 10px;
+text-align: center;
+}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background: #05000a; 
+    font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
+
+    margin: 0;
+    padding-top: 0%;
+
+}
+
+ul{
+    list-style: none;
+}
+
 Head{
-    text-align: justify;
+    text-align:center;
     
 
 }
 header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #1d9cc2;
+    width: 100;
+    background-color:#0e4845;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 nav {
@@ -33,27 +48,42 @@ nav a {
     color: #333;
     padding: 10px;
     display: inline-block;}
-body{
-    background: #f6f5f7; 
-    font-family: 'Montserrat', sans-serif;
-    color: #3E363F;
 
-    margin: 0;
-    padding-top: 70px;
-}
 
 nav a:hover {
     background-color: #ddd;
 }
 
 main {
+
     max-width: 800px;
     margin: 0 auto;
 }
+#contacto img {
+width: 30px;
+
+}
+
+#acerca {
+  
+ top: 90px;
+
+}
 
 section {
-    background-color: aquamarine;
+    background-color: rgb(82, 198, 169);
     padding: 20px;
-    border: 2px solid #1508d1;
+    border: 1px solid #f8f7fa;
     margin-bottom: 20px;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*dotted: líneas en puntitos
+  margin: margen entre el elemento de los otros, externamente
+  padding: margen entre el objeto y sus elementos internos  */
